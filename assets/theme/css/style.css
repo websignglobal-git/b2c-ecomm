@@ -663,7 +663,8 @@ blockquote {
   -webkit-align-items: center; }
 
 .card-wrapper {
-  -webkit-flex: 1; }
+  -webkit-flex: 1; 
+}
 
 .carousel-control {
   z-index: 10;

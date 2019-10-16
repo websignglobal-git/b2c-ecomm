@@ -3,14 +3,9 @@
 }
 
 .text_box {
-    padding: 10%;
-    padding-left: 10%;
+    padding: 30px;
     background-color: #fff;
-    position: relative;
-    left: 10%;
-    z-index: 1;
-    box-shadow: 0 0 20px 0px #b2b2b2;
-    bottom: 10%;
+    height: 100%;
 }
 
 .carousel-control {
@@ -21,19 +16,17 @@
     background-color: #eee !important;
 }
 
-.image_box {
-    position: absolute;
-}
 
 .carousel {
     margin-top: 5%;
 }
 
-.topics_items {
-    padding: 10%;
+.side_card.topics_items {
+    padding: 16px;
     color: #7f7e7b;
+    background-color: #fff;
+    width: 100%;
 }
-
 .topic_list {
     font-size: 20px;
     color: #7f7e7b;
@@ -90,21 +83,20 @@
     height: 180px;
 }
 
-.card {
-    height: 750px !important;
-}
 .carousel-indicators .active {
 	background-color: #000 !important;
 }
 .carousel-indicators li {
 	border: 1px solid #000 !important;
 }
+.card{
+    height: 500px;
+}
 
 @media screen and (max-width: 991px) {
     .carousel {
         display: none;
     }
-
     .card {
         height: 750px !important;
     }
@@ -124,10 +116,6 @@
         height: 300px;
     }
 
-    .card {
-        height: 750px !important;
-    }
-
     .article_title {
         margin-top: 25%;
     }
@@ -144,12 +132,17 @@
 }
 }
 
-@media screen and (max-width: 1200px) {
-    .card {
-        height: 850px !important;
+@media screen and (max-width: 1199px) {
+    .cid-rERAD6Pm38 .mbr-text {
+        font-size: 15px !important;
     }
 }
 
+@media screen and (max-width: 767px) {
+    .card {
+    height: auto !important;
+}
+}
 @media screen and (max-width: 576px) {
     .article_title {
         margin-top: 30%;
