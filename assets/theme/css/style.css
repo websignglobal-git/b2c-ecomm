@@ -1070,6 +1070,9 @@ body {
 
 
 /****new styles******/
+.service_nav,.about_bg_nav{
+    background: #0d885d !important;
+}
 .home_ban{
     background: #17984b !important;
     min-height: 75vh !important
@@ -1381,9 +1384,6 @@ p.about_banner_p {
     font-family: Poppins,sans-serif;
     line-height: 2em;
 }
-.navbar-toggleable-sm.about_bg_nav {
-    background-color: #1795c0 !important;
-}
 p.softwre_head1{
   font-size: 35px;
     font-weight: bold;
@@ -1485,6 +1485,9 @@ p.softwre_head1{
 @media screen and (max-width: 576px) {
 p.about_banner_head{
   font-size: 25px;
+}
+.ser_head2,.ser_head21{
+  width: 100% !important;
 }
 }
 /****about us new styles******/
